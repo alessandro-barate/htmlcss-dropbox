@@ -21,7 +21,7 @@
 }
 
 .col-33 {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 4px);
     height: 600px;
     background-color: bisque;
 }
@@ -110,4 +110,20 @@
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.gap {
+    gap: 2px;
+}
+
+.square1 {
+    width: 50%;
+    height: 300px;
+    background-color: chocolate;
+}
+
+.square2 {
+    width: 50%;
+    height: 300px;
+    background-color: cornflowerblue;
 }
