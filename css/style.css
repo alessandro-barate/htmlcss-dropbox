@@ -11,6 +11,13 @@
     background-color: red;
 }
 
+.container-jumbo {
+    max-width: 100%;
+    height: 400px;
+    margin: 5px auto;
+    background-color: red;
+}
+
 .row {
     max-width: 1400px;
     height: 100%;
@@ -18,11 +25,33 @@
     background-color: aqua;
 }
 
+.col-35 {
+    width: 35%;
+    height: 55%;
+    background-color: bisque;
+}
+
 .col-50 {
     width: 49%;
     height: 100%;
     margin: 0 auto;
     background-color: orange;
+}
+
+.col-65 {
+    width: 64%;
+    height: 55%;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    background-color: bisque;
+}
+
+.col-100 {
+    width: 99%;
+    height: 45%;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    background-color: bisque;
 }
 
 .logo {
