@@ -90,6 +90,34 @@ h1 {
 .content-plans {
     width: 100%;
 }
+
+.content-operations {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.content-clients {
+    font-size: 12px;
+    padding-bottom: 150px;
+}
+
+.content-clients h2{
+    padding-bottom: 60px;
+}
+
+.content-card {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.content-card span {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.content-card h3, .content-card img, .content-card span {
+    width: 70%;
+}
 /*  /CONTAINERS  */
 
 /*  LISTS  */
@@ -253,6 +281,9 @@ button {
     background-color: transparent;
 }
 
+.content-operations {
+    padding-bottom: 40px;
+}
 
 /*  UTILITY  */
 .text-align-right {
@@ -273,6 +304,11 @@ button {
 
 .gap {
     gap: 2px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .bg-red {
