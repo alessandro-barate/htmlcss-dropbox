@@ -313,6 +313,27 @@ button {
     color: rgb(97, 8, 43);
 }
 
+.content-faq {
+    padding-bottom: 100px;
+}
+
+.content-faq h2{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.content-faq span {
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.content-faq hr {
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(208, 208, 211);
+}
+
 /*  UTILITY  */
 .text-align-right {
     text-align: right;
@@ -345,10 +366,6 @@ button {
 
 .bg-lightblue {
     background-color: rgb(180, 208, 231);
-}
-
-.bg-bisque {
-    background-color: bisque;
 }
 
 .padding-bottom {
