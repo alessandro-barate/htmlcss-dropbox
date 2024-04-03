@@ -13,6 +13,10 @@ body {
 /*  MAIN TAGS  */
 header {
     width: 100%;
+    position: fixed;
+    z-index: 3;
+    margin-bottom: 50px;
+    background-color: white;
 }
 
 footer {
@@ -22,7 +26,7 @@ footer {
 }
 
 h1 {
-   font-size: 70px;
+   font-size: 90px;
    font-weight: bold;
 }
 /*  /MAIN TAGS  */
@@ -39,6 +43,11 @@ h1 {
     margin: 0 auto;
 }
 
+.row-jumbo {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .container-header-list {
     width: 100%;
 }
@@ -48,16 +57,17 @@ h1 {
 }
 
 .content-h1 {
-    width: 70%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 10px;
 }
 
 .content-100 {
     width: 100%;
-    margin-top: ;
 }
 /*  /CONTAINERS  */
 
@@ -91,10 +101,8 @@ ul {
     background-color: bisque;
 }
 
-.col-35 {
-    width: 35%;
-    height: 200px;
-    background-color: bisque;
+.col-30 {
+    width: 30%;
 }
 
 .col-50 {
@@ -102,16 +110,17 @@ ul {
     margin: 0 auto;
 }
 
-.col-65 {
-    width: 64%;
-    height: 200px;
-    margin-left: 2px;
-    margin-bottom: 2px;
-    background-color: bisque;
+.col-70 {
+    width: 70%;
 }
 
 .col-100 {
     width: 100%;
+}
+
+.col-100-jumbo {
+    width: 90%;
+    margin: 0 auto;
 }
 /*  /COLUMNS  */
 
@@ -199,9 +208,19 @@ button {
 .bg-bisque {
     background-color: bisque;
 }
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
 /*  /UTILITY  */
 
-
+.downarrow {
+    font-size: 80px;
+}
 
 .square1 {
     width: 50%;
@@ -218,5 +237,11 @@ button {
 .logo img {
     object-fit: cover;
     padding: 12px 5px 10px 5px;
+}
+
+.img-jumbo {
+    object-fit: contain;
+    width: 70%;
+    z-index: 1;
 }
 
