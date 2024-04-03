@@ -58,7 +58,8 @@ h1 {
 }
 
 .container-plans {
-    gap: 5px;
+    width: 100%;
+    gap: 40px;
 }
 
 .content-h1 {
@@ -84,6 +85,10 @@ h1 {
     width: 100%;
     padding-top: 60px;
     padding-bottom: 40px; 
+}
+
+.content-plans {
+    width: 100%;
 }
 /*  /CONTAINERS  */
 
@@ -112,8 +117,7 @@ ul {
 }
 
 .col-33 {
-    width: calc(100% / 3 - 4px);
-    height: 600px;
+    width: calc(100% / 3);
     background-color: bisque;
 }
 
@@ -170,7 +174,11 @@ button {
     padding: 5px 12px 7px 12px;
 }
 
-
+.user {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(208, 208, 211);
+}
 
 .team-logo {
     width: 100%;
@@ -264,5 +272,39 @@ button {
     padding-right: 40px;
 }
 
+.border-grey {
+    border: 1px solid rgb(208, 208, 211);
+}
+
+.plan-type {
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.total-price {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.unitary-price {
+    color: rgb(102, 104, 107);
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+
+.plan-list {
+    font-size: 12px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+
+.list li {
+    padding-top: 10px;
+    padding-right: 30px;
+}
 
 
