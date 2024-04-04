@@ -406,14 +406,24 @@ button {
     margin: 0 auto;
 }
 
-
-
 .padding-bottom {
     padding-bottom: 30px;
 }
 
 .padding-top {
     padding-top: 30px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.height-full {
+    height: 100%;
 }
 /*  /UTILITY  */
 
@@ -430,11 +440,50 @@ button {
 .small-square {
     width: 50%;
     height: 50%;
+    position: relative;
+}
+
+.small-square-tiny {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
 }
 
 .small-square img {
     width: 50%;
     object-fit: contain;
+    filter: invert(100%);
+    position: relative;
+    top: 50%;
+    transform: translate(+50%, -50%);
+}
+
+.content-central-square {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.designit {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.r-entity {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.content-central-square hr {
+    width: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+.quote span {
+    display: inline-block;
+    padding-top: 50px;
 }
 
 
@@ -492,6 +541,8 @@ button {
 
 
 
+
+
 .free-trial {
     width: 100%;
     text-align: center;
@@ -537,18 +588,6 @@ hr {
     padding-top: 10px;
 }
 
-.margin-top {
-    margin-top: 50px;
-}
-
-.margin-top-100 {
-    margin-top: 100px;
-}
-
-.height-full {
-    height: 100%;
-}
-
 /*  BACKGROUNDS COLORS  */
 .bg-lightgrey {
     background-color: rgb(245, 245, 245);
@@ -558,11 +597,19 @@ hr {
     background-color: rgb(180, 208, 231);
 }
 
+.bg-lightgreen {
+    background-color: rgb(209, 233, 205);
+}
+
+.bg-green {
+    background-color: rgb(162, 211, 155);
+}
+
 .bg-brown {
     background-color: rgb(97, 8, 43);
 }
 
-.bg-lightgreen {
+.bg-deepsky {
     background-color: rgb(0, 147, 206);
 }
 
