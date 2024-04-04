@@ -81,7 +81,7 @@ span {
 
 .container-img-jumbo {
     width: 100%;
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
 
@@ -101,8 +101,9 @@ span {
 
 .content-downarrow {
     width: 100%;
-    font-size: 50px;
-    padding-top: 85px;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .content-100 {
@@ -112,13 +113,13 @@ span {
 
 .content-business {
     width: 100%;
-    padding-top: 60px;
+    padding-top: 90px;
 }
 
 .content-buttons {
     width: 100%;
     padding-top: 60px;
-    padding-bottom: 40px; 
+    padding-bottom: 50px; 
 }
 
 .content-plans {
@@ -169,6 +170,11 @@ ul {
     padding: 10px;
     font-size: 12px;
 }
+
+.header-list a {
+    color: black;
+    text-decoration: none;
+}
 /*  /LISTS  */
 
 /*  COLUMNS  */
@@ -215,10 +221,7 @@ ul {
 }
 /*  /COLUMNS  */
 
-.header-list a {
-    color: black;
-    text-decoration: none;
-}
+
 
 
 
@@ -282,14 +285,14 @@ button {
 }
 
 .sales-contact {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     padding-bottom: 50px;
     padding-left: 25px;
 }
 
 .solutions {
-    font-size: 12px;
+    font-size: 13px;
     padding-bottom: 20px;
     padding-left: 25px;
 }
@@ -422,6 +425,10 @@ button {
     padding-bottom: 30px;
 }
 
+.padding-top-20 {
+    padding-top: 20px;
+}
+
 .padding-top {
     padding-top: 30px;
 }
@@ -543,6 +550,14 @@ button {
     padding-bottom: 40px;
 }
 
+.green {
+    color: green;
+}
+
+.plan-li {
+    list-style-position: inside;
+}
+
 
 
 .list li, .recap-list li {
@@ -550,6 +565,8 @@ button {
     padding-right: 30px;
     font-size: 12px;
 }
+
+
 
 
 
@@ -589,6 +606,7 @@ hr {
 
 .list-title {
     padding-bottom: 15px;
+    padding-left: 22px;
 }
 
 .list-title li {
