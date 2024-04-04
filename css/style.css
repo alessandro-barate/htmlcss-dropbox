@@ -29,6 +29,10 @@ h1 {
    font-size: 90px;
    font-weight: bold;
 }
+
+span {
+    line-height: 23px;
+}
 /*  /MAIN TAGS  */
 
 
@@ -69,12 +73,17 @@ h1 {
 
 .content-h1 {
     width: 100%;
-    text-align: center;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 30px;
     margin-top: 70px;
     margin-bottom: 10px;
+}
+
+.content-downarrow {
+    width: 100%;
+    font-size: 50px;
+    padding-top: 85px;
 }
 
 .content-100 {
@@ -323,7 +332,8 @@ button {
 }
 
 .content-faq h2{
-    padding-top: 60px;
+    font-size: 30px;
+    padding-top: 90px;
     padding-bottom: 40px;
 }
 
@@ -338,6 +348,7 @@ button {
     margin: 0 auto;
     color: rgb(208, 208, 211);
 }
+
 
 
 
@@ -394,10 +405,6 @@ button {
 }
 /*  /UTILITY  */
 
-.downarrow {
-    font-size: 80px;
-}
-
 .square1 {
     width: 50%;
     height: 300px;
@@ -417,7 +424,7 @@ button {
 
 .img-jumbo {
     object-fit: contain;
-    width: 70%;
+    width: 90%;
 }
 
 .button-year {
@@ -507,6 +514,10 @@ hr {
 
 .margin-top {
     margin-top: 50px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
 }
 
 
