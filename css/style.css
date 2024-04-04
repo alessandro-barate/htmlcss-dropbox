@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: normal;
 }
 /* /GENERAL SETTINGS  */
 
@@ -78,6 +79,12 @@ span {
     width: 100%;
 }
 
+.container-img-jumbo {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
 .container-plans {
     width: 100%;
     gap: 40px;
@@ -100,6 +107,7 @@ span {
 
 .content-100 {
     width: 100%;
+    position: relative;
 }
 
 .content-business {
@@ -133,7 +141,7 @@ span {
 }
 
 .content-clients a {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .content-card {
@@ -250,6 +258,10 @@ button {
     border-bottom: 1px solid rgb(208, 208, 211);;
 }
 
+.plan-type h3 {
+    font-size: 22px;
+}
+
 .enterprise-plan {
     width: 100%;
 }
@@ -306,7 +318,8 @@ button {
 }
 
 .content-partner p {
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 17px;
     padding-bottom: 25px;
 }
 
@@ -319,11 +332,6 @@ button {
 
 .content-operations {
     padding-bottom: 40px;
-}
-
-.padding {
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .white-button {
@@ -368,7 +376,6 @@ button {
     border-bottom: 2px solid rgb(208, 208, 211);
 }
 
-
 .language {
     width: 100%;
     padding-top: 50px;
@@ -404,6 +411,11 @@ button {
 .justify-content-between {
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .padding-bottom {
@@ -522,7 +534,7 @@ button {
     font-size: 12px;
     padding-top: 10px;
     padding-left: 25px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .plan-list {
@@ -575,13 +587,21 @@ hr {
     list-style-position: inside;
 }
 
+.list-title {
+    padding-bottom: 15px;
+}
+
 .list-title li {
     list-style-type: disc;
 }
 
-.plan-li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.list-title h3 {
+    font-size: 14px;
+}
+
+.plan-li li {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer-list li {
